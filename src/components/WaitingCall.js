@@ -23,6 +23,7 @@ const WaitingCall = () => {
           colors={["#A8ACB3", "#2B2B2C"]}
           style={styles.container}
         >
+          {/* replace below information asa we have new tracks */}
           <View style={styles.callInfoContainer}>
             <View style={styles.callInfoThumbnailWrap}>
               <Image

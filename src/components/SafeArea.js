@@ -12,7 +12,7 @@ const isAndroid = Platform.OS === "android";
 
 const SafeArea = ({ children }) => {
   return (
-    <SafeAreaView style={{ marginTop: isAndroid && StatusBar.currentHeight }}>
+    <SafeAreaView style={{ marginTop: isAndroid && StatusBar.currentHeight,flex:1 }}>
       {children}
     </SafeAreaView>
   );
