@@ -1,0 +1,12 @@
+{
+  "name": "video-call-ui",
+  "displayName": "video-call-ui",
+  "expo": {
+    "name": "video-call-ui",
+    "slug": "video-call-ui",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
